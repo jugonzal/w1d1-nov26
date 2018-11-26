@@ -10,14 +10,22 @@ console.log(args);
 // #  - 9 -> ringer
 // #  - 10 -> pinky
 
-var leftHand = args[2]
-var rightHand = args[3]
-console.log("Left Hand: ", leftHand)
-console.log("Right Hand: ", rightHand)
+var leftHand = args[2];
+var rightHand = args[3];
+console.log("Left Hand: ", leftHand);
+console.log("Right Hand: ", rightHand);
 
 // #- Group all fingers that are up to the "mapped" finger
+
+var leftGroup = leftHand - 5;
+
 // #- Repeat for the second number on the other hand
+var rightGroup = rightHand - 5;
+
 // #- Join the mapped fingers, count them and multiply by 10
+var groupedFingers = (leftGroup + rightGroup) * 10;
+console.log("Grouped Fingers: ", groupedFingers)
+
 // #- Take the leftover fingers from each hand and multiply left by right
 // #- Add up the mapped x 10 value with the leftover multiplication
 // #- Done... this should be the result
