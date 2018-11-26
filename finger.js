@@ -9,6 +9,12 @@ console.log(args);
 // #  - 8 -> middle
 // #  - 9 -> ringer
 // #  - 10 -> pinky
+
+var leftHand = args[2]
+var rightHand = args[3]
+console.log("Left Hand: ", leftHand)
+console.log("Right Hand: ", rightHand)
+
 // #- Group all fingers that are up to the "mapped" finger
 // #- Repeat for the second number on the other hand
 // #- Join the mapped fingers, count them and multiply by 10
