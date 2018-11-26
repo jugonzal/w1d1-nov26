@@ -27,6 +27,13 @@ var groupedFingers = (leftGroup + rightGroup) * 10;
 console.log("Grouped Fingers: ", groupedFingers)
 
 // #- Take the leftover fingers from each hand and multiply left by right
+var looseLeftFingers = 10 - leftHand;
+var looseRightFingers = 10 - rightHand;
+
+var looseFingers = looseLeftFingers * looseRightFingers;
+
+console.log("Loose Figers: ", looseFingers);
+
 // #- Add up the mapped x 10 value with the leftover multiplication
 // #- Done... this should be the result
 
