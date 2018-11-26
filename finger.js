@@ -35,5 +35,8 @@ var looseFingers = looseLeftFingers * looseRightFingers;
 console.log("Loose Figers: ", looseFingers);
 
 // #- Add up the mapped x 10 value with the leftover multiplication
+var finalResult = groupedFingers + looseFingers;
+console.log("Final Result: ", finalResult);
 // #- Done... this should be the result
 
+console.log("Proof: ", leftHand * rightHand)
